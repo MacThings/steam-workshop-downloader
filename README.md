@@ -6,8 +6,9 @@ Download Steam Workshop Files without Steam Account from Terminal
   
 #### 2. Usage
       /bin/bash steam-workshop-downloader.sh WORKSHOP_ID
-#### For example
-
+#### For example you want to Download this Workshop:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2903000891
+      
       /bin/bash steam-workshop-downloader.sh 2903000891
       
 #### Result
