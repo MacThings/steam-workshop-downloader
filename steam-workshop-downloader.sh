@@ -1,8 +1,10 @@
 #!/bin/bash
 #
 
-steam_dir="$HOME/.steam/debian-installation/steamapps/workshop/content"
+### Fit to your needs ###
+steam_dir="$HOME/.steam/debian-installation/steamapps/workshop/content" 
 download_dir="$HOME/Downloads"
+###
 
 workshop_id="$1"
 html_source=$( curl -silent "https://steamcommunity.com/sharedfiles/filedetails/?id=$workshop_id" )
