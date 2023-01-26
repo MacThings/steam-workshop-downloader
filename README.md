@@ -2,10 +2,10 @@
 Download Steam Workshop Files without Steam Account from Terminal
 
 #### 1. Requirements / Install
+      sudo apt-get install git steamcmd
       git clone https://github.com/MacThings/steam-workshop-downloader
       cd steam-workshop-downloader
       chmod +x steam-workshop-downloader.sh
-      sudo apt-get install steamcmd
   
 #### 2. Usage
       ./steam-workshop-downloader.sh WORKSHOP_ID
