@@ -1,6 +1,12 @@
 #!/bin/bash
 #
 
+if [[ "$1" = "" ]]; then
+  echo -e "\nUsage:\n"
+  echo -e "./steam-workshop-downloader.sh WORKSHOP_ID\n"
+  exit
+fi
+
 ### Fit to your needs ###
 steam_dir="$HOME/.steam/debian-installation/steamapps/workshop/content" 
 download_dir="$HOME/Downloads"
