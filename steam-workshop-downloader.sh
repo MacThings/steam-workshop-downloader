@@ -31,8 +31,8 @@ echo "$title"
 
 cd "$steam_dir/$app_id"
 
-zip -rq "$HOME/Downloads/$title.zip" "$workshop_id"
+zip -rq "$HOME/$title.zip" "$workshop_id"
 
 rm -r "$steam_dir/$app_id/$workshop_id"
 
-echo -e "\nFile created:\n$HOME/Downloads/$title.zip\n"
+echo -e "\nFile created:\n$HOME/$title.zip\n"
